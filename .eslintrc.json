@@ -1,0 +1,32 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "google"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "quotes": ["error", "single"],
+        "semi": ["error", "never"],
+        "no-undef": 0,
+        "react/prop-types": 0,
+        "react/forbid-prop-types": 0,
+        "no-dupe-else-if": 2,
+        "require-jsdoc" : 0,
+        "no-debugger": 1,
+        "no-console": 1
+    }
+}

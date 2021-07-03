@@ -1,0 +1,11 @@
+import {combineReducers} from '@reduxjs/toolkit'
+import {postsReducer} from './postsReducer'
+import {appReducer} from './appReducer'
+
+const rootReducer = combineReducers({
+  posts: postsReducer,
+  app: appReducer,
+})
+
+export default rootReducer
+
